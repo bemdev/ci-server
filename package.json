@@ -1,0 +1,23 @@
+{
+  "name": "ci-server",
+  "version": "1.0.0",
+  "description": "test ci server repo",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemdev/ci-server.git"
+  },
+  "author": "bemdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bemdev/ci-server/issues"
+  },
+  "homepage": "https://github.com/bemdev/ci-server#readme",
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
